@@ -1,0 +1,8 @@
+theocratic_governments = {
+    municipal_corporation = {
+    }
+    police = {
+    }
+    court_of_justice = {
+    }
+}

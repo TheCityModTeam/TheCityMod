@@ -1,2 +1,4 @@
 feudal_governments = {
+    family = { # as in mafia family
+    }
 }

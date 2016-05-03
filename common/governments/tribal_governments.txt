@@ -1,0 +1,7 @@
+tribal_governments = {
+    entreprise = {
+        preferred_holdings = {}
+    }
+    gang = {
+    }
+}
