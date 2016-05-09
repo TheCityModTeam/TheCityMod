@@ -1,8 +1,11 @@
 theocratic_governments = {
     municipal_corporation = {
+        color = 
     }
     police = {
+        color = 
     }
     court_of_justice = {
+        color = 
     }
 }

@@ -1,4 +1,53 @@
 feudal_governments = {
-    family = { # as in mafia family
+    # business governments
+    family_business = {
+        color = 
+        can_revoke_without_reason = no
+        free_revoke_on_governments = {
+            subsidiary
+        }
+        ignore_in_vassal_limit_calculation = {
+            family_business
+        }
+    }
+    private_company = {
+        color = 
+        can_revoke_without_reason = no
+        free_revoke_on_governments = {
+            family_business
+            
+        }
+        ignore_in_vassal_limit_calculation = {
+            family_business
+        }
+    }
+    public_corporation = {
+        color = 
+        can_revoke_without_reason = yes
+        free_revoke_on_governments = {
+            subsidiary
+        }
+        free_revoke_on_tiers = {
+            count
+        }
+        forced_contract = {
+            subsidiary
+        }
+    }
+    subsidiary = {
+        color = 
+        allow_title_revokation = no
+    }
+
+    # for special emperor level title formed by king-level rulers of
+    # private_company and public_corporation on meeting certain conditions
+    # also replaces mayor
+    corporatocracy = {
+    }
+    
+    # criminal governments
+    crime_family = { # as in mafia family
+    }
+    cartel = {
     }
 }

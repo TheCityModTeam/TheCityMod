@@ -1,7 +1,19 @@
 tribal_governments = {
+    # business governments
     entreprise = {
+        color = 
+        can_create_kingdoms = no
+        can_build_holdings = no
+        can_usurp_kingdoms_and_empires = no
+        can_grant_kingdoms_and_empires_to_other_government = yes
+        can_be_granted_kingdoms_and_empires_by_other_government = no
+        max_consorts = 1
         preferred_holdings = {}
     }
+
+    # criminal governments
     gang = {
+        color = 
     }
+
 }
