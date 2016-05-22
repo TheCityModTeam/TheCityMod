@@ -1,11 +1,17 @@
 theocratic_governments = {
+
+    # All legit government types go here
+
     municipal_corporation = {
         color = 
+        allow_looting = no
     }
     police = {
         color = 
+        allow_looting = no
     }
     court_of_justice = {
         color = 
+        allow_looting = no
     }
 }

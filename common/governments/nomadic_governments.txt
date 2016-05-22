@@ -1,0 +1,14 @@
+nomadic_governments = {
+    # Business governments
+    Conglomerate = {
+        color = 
+        can_revoke_without_reason = no
+        
+    }
+    
+    # Criminal governments
+    Yakuza = {
+        color = 
+        can_revoke_without_reason = 
+    }
+}

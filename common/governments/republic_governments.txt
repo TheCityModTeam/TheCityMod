@@ -1,3 +1,6 @@
 republic_governments = {
+    councillor = {
+        color = 
+    }
 
 }

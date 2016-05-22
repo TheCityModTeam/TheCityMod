@@ -1,6 +1,6 @@
 tribal_governments = {
     # business governments
-    entreprise = {
+    enterprise = {
         color = 
         can_create_kingdoms = no
         can_build_holdings = no
@@ -9,11 +9,15 @@ tribal_governments = {
         can_be_granted_kingdoms_and_empires_by_other_government = no
         max_consorts = 1
         preferred_holdings = {}
+        can_change_to_nomad_on_start = no
+        allow_looting = no
     }
 
     # criminal governments
     gang = {
         color = 
+        allow_looting = yes
+        can_change_to_nomad_on_start = no
     }
 
 }
