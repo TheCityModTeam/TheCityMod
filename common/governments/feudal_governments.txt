@@ -1,0 +1,75 @@
+feudal_governments = {
+    # business governments
+    family_business = {
+        color = 
+        can_revoke_without_reason = no
+        free_retract_vassalage = no
+        allow_looting = no
+        free_revoke_on_governments = {
+            subsidiary
+        }
+        ignore_in_vassal_limit_calculation = {
+            family_business
+        }
+    }
+    private_company = {
+        color = 
+        can_revoke_without_reason = no
+        allow_looting = no
+        free_revoke_on_governments = {
+            family_business
+            subsidiary
+        }
+        forced_contract = {
+            subsidiary
+        }
+        ignore_in_vassal_limit_calculation = {
+            family_business
+        }
+    }
+    public_corporation = {
+        color = 
+        can_revoke_without_reason = yes
+        allow_looting = no
+        free_revoke_on_governments = {
+            subsidiary
+        }
+        free_revoke_on_tiers = {
+            count
+        }
+        forced_contract = {
+            subsidiary
+        }
+        ignore_in_vassal_limit_calculation = {
+            subsidiary
+        }
+    }
+    subsidiary = { # move this to republic_governments?
+        color = 
+        allow_looting = no
+        allow_title_revokation = no
+    }
+
+    # for special emperor level title formed by king-level rulers of
+    # private_company and public_corporation on meeting certain conditions
+    # also replaces mayor
+    ## Discard this? Since we have conglomerates.
+    corporatocracy = {
+    }
+    
+    # criminal governments
+    crime_family = { # as in mafia family
+        allow_looting = no
+        allow_looting = yes
+    }
+    cartel = {
+        color = 
+        allow_looting = yes
+        have_gender_laws = no
+    }
+    triad = {
+        color = 
+        allow_looting = yes
+        have_gender_laws = yes
+    }
+}
